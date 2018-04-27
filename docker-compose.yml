@@ -8,4 +8,8 @@ services:
     image: sophiedu/lab234-lab11-frontend:latest
     ports:
       - "8085:80"
+    volumes：
+      -type: bind
+      source: ./xxx
+      target: /data      
 
